@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadata -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angélica Rivas</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="nav justify-content-center">
+      <a class="nav-link" href="#info">Inicio</a>
+      <a class="nav-link" href="#education">Educación</a>
+      <a class="nav-link" href="#experience">Experiencia Laboral</a>
+      <a class="nav-link" href="#certifications">Certificaciones</a>
+      <a class="nav-link" href="#skills">Habilidades</a>
+      <a class="nav-link" href="#contact-me">Contacto</a>
+    </nav>
+    <!-- Personal Info. -->
+    <main class="container" id="info">
+      <div class="row"></div>
+        <img src="./img/avatar.png" alt="Esta soy yo" />
+      </div>
+      <div class="row">
+        <h1>María Angélica Rivas Romero</h1>
+        <h2>Ingeniero de Sistemas</h2>
+      </div>
+    </main>
+    <!-- Education -->
+    <section id="education">
+      <h3>Educación</h3>
+      <hr />
+      <span>Ingeniero de Sistemas (2018 - 2024)</span>
+      <p><b>Insituto Universitario Politecnico "Santiago Mariño"</b></p>
+      <span>Bachiller en Ciencias (2012 - 2016)</span>
+      <p><b>Colegio la Esperanza</b></p>
+    </section>
+    <!-- Experience -->
+    <section id="experience">
+      <h3>Experiencia Laboral</h3>
+      <hr />
+      <span>Centro de Especialidades Panamericano, C.A. (2023 - 2024)</span>
+      <p><b>Analista de Sistemas</b></p>
+      <span>Petroquímica de Venezuela, S.A. (C.P.H.C.) (2022 - 2023)</span>
+      <p><b>Pasante del Dpto. de Tecnologías de la Información</b></p>
+      <span>Servicios Integrales de Salud, S.I.S.C.A., C.A. (2019 - 2020)</span>
+      <p><b>Analista de Sistemas</b></p>
+    </section>
+    <!-- Certifications -->
+    <section id="certifications">
+      <h3>Certificaciones</h3>
+      <hr />
+      <ul>
+        <li>Servicio Técnico a Ordenadores</li>
+        <li>Oratoria</li>
+        <li>Excel Avanzado</li>
+        <li>Alemán - Certificación A1</li>
+        <li>Inglés - Certificación de Nivel 3</li>
+      </ul>
+    </section>
+    <!-- Skills -->
+    <section id="skills">
+      <h3>Habilidades</h3>
+      <hr />
+      <div class="row">
+        <div class="col">
+          <span><b>Programación</b> (Básico - Intermedio)</span>
+          <ul>
+            <li>C/C++</li>
+            <li>Python</li>
+            <li>Visual Basic for Excel</li>
+          </ul>
+          <span><b>Desarrollo Web</b> (Básico)</span>
+          <ul>
+            <li>HTML / CSS / JavaScript</li>
+            <li>Bootstrap</li>
+            <li>Django</li>
+          </ul>
+        </div>
+        <div class="col">
+          <span><b>Microsoft Office</b> (Avanzado)</span>
+          <ul>
+            <li>Word</li>
+            <li>Excel</li>
+            <li>PowerPoint</li>
+            <li>Publisher</li>
+            <li>Project</li>
+            <li>Visio</li>
+            <li>Access</li>
+          </ul>
+        </div>
+      </div> 
+    </section>
+    <!-- Contact Me -->
+    <section id="contact-me">
+      <h3>Contacto</h3>
+      <hr />
+      <ul>
+        <li><i class="fa-brands fa-whatsapp"></i> +58 414-412.34.52</li>
+        <li><i class="fa-regular fa-envelope"></i> angelicarivas1401@proton.me</li>
+        <li><i class="fa-regular fa-map"></i> Valencia, Carabobo. 2005, VE</li>
+      </ul>
+      <p>Envíame un mensaje</p>
+      <form action="#">
+        <div class="form-row mb-3">
+          <div class="col">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+          </div>
+        </div>
+        <div class="form-row mb-3">
+          <div class="col">
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico">
+          </div>
+        </div>
+        <div class="form-row mb-3">
+          <div class="col">
+            <label for="mensaje">Mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+          </div>
+        </div>
+        <div class="Text-right">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
