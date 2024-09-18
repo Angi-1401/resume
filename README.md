@@ -1,2 +1,2 @@
-# resume
- My resume (Spanish ver.)
+# Resume
+My resume (Spanish ver.)
