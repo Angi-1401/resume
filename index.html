@@ -6,8 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Angélica Rivas</title>
     <!-- CSS Styles -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
@@ -22,7 +28,7 @@
     </nav>
     <!-- Personal Info. -->
     <main class="container" id="info">
-      <div class="row"></div>
+      <div class="mb-5">
         <img src="./img/avatar.png" alt="Esta soy yo" />
       </div>
       <div class="row">
@@ -93,7 +99,7 @@
             <li>Access</li>
           </ul>
         </div>
-      </div> 
+      </div>
     </section>
     <!-- Contact Me -->
     <section id="contact-me">
@@ -101,7 +107,9 @@
       <hr />
       <ul>
         <li><i class="fa-brands fa-whatsapp"></i> +58 414-412.34.52</li>
-        <li><i class="fa-regular fa-envelope"></i> angelicarivas1401@proton.me</li>
+        <li>
+          <i class="fa-regular fa-envelope"></i> angelicarivas1401@proton.me
+        </li>
         <li><i class="fa-regular fa-map"></i> Valencia, Carabobo. 2005, VE</li>
       </ul>
       <p>Envíame un mensaje</p>
@@ -109,24 +117,37 @@
         <div class="form-row mb-3">
           <div class="col">
             <label for="nombre">Nombre</label>
-            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+            <input
+              type="text"
+              class="form-control"
+              id="nombre"
+              placeholder="Ingresa tu nombre"
+            />
           </div>
         </div>
         <div class="form-row mb-3">
           <div class="col">
             <label for="correo">Correo Electrónico</label>
-            <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo electrónico">
+            <input
+              type="email"
+              class="form-control"
+              id="correo"
+              placeholder="Ingresa tu correo electrónico"
+            />
           </div>
         </div>
         <div class="form-row mb-3">
           <div class="col">
             <label for="mensaje">Mensaje</label>
-            <textarea class="form-control" id="mensaje" rows="3" placeholder="Escribe tu mensaje"></textarea>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              rows="3"
+              placeholder="Escribe tu mensaje"
+            ></textarea>
           </div>
         </div>
-        <div class="Text-right">
-          <button type="submit" class="btn btn-primary">Enviar</button>
-        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
     </section>
   </body>
